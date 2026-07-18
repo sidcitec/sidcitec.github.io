@@ -1,0 +1,11 @@
+- label: Bienvenido
+  target: intro
+- label: Acerca del grupo
+  target: about-sidcitec
+- label: Proyectos
+  target: projects-sidcitec
+- label: Servicios
+  target: services-sidcitec
+- label: Contáctenos
+  target: contact-sidcitec
+

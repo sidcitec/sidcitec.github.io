@@ -1,0 +1,12 @@
+<section id="sidebar">
+  <div class="inner">
+    <nav aria-label="Navegación principal">
+      <ul>
+        {% for item in site.data.navigation %}
+          <li><a href="#{{ item.target }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</section>
+

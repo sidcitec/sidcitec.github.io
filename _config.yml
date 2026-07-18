@@ -1,0 +1,32 @@
+title: SIDCITEC
+tagline: Sistemas Inteligentes, Sistemas Distribuidos, Ciberseguridad y Tecnologías Emergentes
+description: >-
+  Grupo de Investigación en Sistemas Inteligentes y Distribuidos, Ciberseguridad
+  y Tecnologías Emergentes de la FISI, Universidad Nacional Mayor de San Marcos.
+url: https://sidcitec.github.io
+baseurl: ""
+lang: es-PE
+timezone: America/Lima
+email: hpaucarc@unmsm.edu.pe
+
+organization:
+  full_name: Grupo de Investigación en Sistemas Inteligentes y Distribuidos, Ciberseguridad y Tecnologías Emergentes
+  faculty: Facultad de Ingeniería de Sistemas e Informática
+  university: Universidad Nacional Mayor de San Marcos
+  city: Lima
+  country: Perú
+
+logo: /images/logo/logo-sidcitec-blanco.png
+repository: sidcitec/sidcitec.github.io
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+

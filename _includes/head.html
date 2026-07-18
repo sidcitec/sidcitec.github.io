@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  {% seo %}
+  <meta name="theme-color" content="#312450">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <noscript><link rel="stylesheet" href="{{ '/assets/css/noscript.css' | relative_url }}"></noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchOrganization",
+    "name": {{ site.title | jsonify }},
+    "alternateName": {{ site.organization.full_name | jsonify }},
+    "url": {{ site.url | append: site.baseurl | jsonify }},
+    "logo": {{ site.url | append: site.baseurl | append: site.logo | jsonify }},
+    "parentOrganization": {
+      "@type": "CollegeOrUniversity",
+      "name": {{ site.organization.university | jsonify }}
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": {{ site.organization.city | jsonify }},
+      "addressCountry": "PE"
+    },
+    "email": {{ site.email | jsonify }}
+  }
+  </script>
+</head>
+

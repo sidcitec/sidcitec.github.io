@@ -1,4 +1,8 @@
+---
+layout: null
+---
 User-agent: *
 Allow: /
 
-Sitemap: https://sidcitec.github.io/sitemap.xml
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
+

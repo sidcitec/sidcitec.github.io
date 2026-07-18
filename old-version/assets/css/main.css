@@ -1,28 +1,5 @@
 @import url(fontawesome-all.min.css);
 
-/* SIDCITEC: small project-specific refinements. */
-.site-logo {
-	display: block;
-	width: min(420px, 70%);
-	height: auto;
-	margin: 0 0 2rem 0;
-}
-
-.member-list {
-	columns: 2;
-	column-gap: 2rem;
-}
-
-.member-list li {
-	break-inside: avoid;
-	margin-bottom: 0.9rem;
-}
-
-@media screen and (max-width: 736px) {
-	.member-list { columns: 1; }
-	.site-logo { width: min(360px, 90%); }
-}
-
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
